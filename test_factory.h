@@ -16,6 +16,8 @@
 #include <memory>
 #include "L20_isValid/L20_isValid.h"
 #include "L32_longestValidParentheses/L32_longestValidParentheses.h"
+#include "L42_trap/L42_trap.h"
+#include "L71_simplifyPath/L71_simplifyPath.h"
 class test_factory {
 
 private:
@@ -25,6 +27,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L32") {
             std::shared_ptr<L32_longestValidParentheses> tmp= std::make_shared<L32_longestValidParentheses>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L42") {
+            std::shared_ptr<L42_trap> tmp= std::make_shared<L42_trap>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L71") {
+            std::shared_ptr<L71_simplifyPath> tmp= std::make_shared<L71_simplifyPath>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
