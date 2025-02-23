@@ -18,6 +18,8 @@
 #include "L32_longestValidParentheses/L32_longestValidParentheses.h"
 #include "L42_trap/L42_trap.h"
 #include "L71_simplifyPath/L71_simplifyPath.h"
+#include "L84_largestRectangleArea/L84_largestRectangleArea.h"
+#include "L85_maximalRectangle/L85_maximalRectangle.h"
 class test_factory {
 
 private:
@@ -33,6 +35,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L71") {
             std::shared_ptr<L71_simplifyPath> tmp= std::make_shared<L71_simplifyPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L84") {
+            std::shared_ptr<L84_largestRectangleArea> tmp= std::make_shared<L84_largestRectangleArea>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L85") {
+            std::shared_ptr<L85_maximalRectangle> tmp= std::make_shared<L85_maximalRectangle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
