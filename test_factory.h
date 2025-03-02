@@ -20,6 +20,9 @@
 #include "L71_simplifyPath/L71_simplifyPath.h"
 #include "L84_largestRectangleArea/L84_largestRectangleArea.h"
 #include "L85_maximalRectangle/L85_maximalRectangle.h"
+#include "L94_inorderTraversal/L94_inorderTraversal.h"
+#include "L114_flatten/L114_flatten.h"
+
 class test_factory {
 
 private:
@@ -42,6 +45,14 @@ private:
         } else if (title == "L85") {
             std::shared_ptr<L85_maximalRectangle> tmp= std::make_shared<L85_maximalRectangle>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L94") {
+            std::shared_ptr<L94_inorderTraversal> tmp= std::make_shared<L94_inorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L114") {
+            std::shared_ptr<L114_flatten> tmp= std::make_shared<L114_flatten>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

@@ -16,4 +16,8 @@ LeetCode栈算法题的解题仓库
 
 [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/?envType=problem-list-v2&envId=stack) : [L84_largestRectangleArea](L84_largestRectangleArea)
 
-[85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=stack) : [L85_maximalRectangle](L85_maximalRectangle)  
+[85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/description/?envType=problem-list-v2&envId=stack) : [L85_maximalRectangle](L85_maximalRectangle)
+
+[94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L94_inorderTraversal](L94_inorderTraversal)
+
+[114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=stack) : [L114_flatten](L114_flatten)
