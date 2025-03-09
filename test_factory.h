@@ -22,6 +22,8 @@
 #include "L85_maximalRectangle/L85_maximalRectangle.h"
 #include "L94_inorderTraversal/L94_inorderTraversal.h"
 #include "L114_flatten/L114_flatten.h"
+#include "L143_recorderList/L143_recorderList.h"
+#include "L144_preorderTraversal/L144_preorderTraversal.h"
 
 class test_factory {
 
@@ -51,8 +53,12 @@ private:
         } else if (title == "L114") {
             std::shared_ptr<L114_flatten> tmp= std::make_shared<L114_flatten>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L143") {
+            std::shared_ptr<L143_recorderList> tmp= std::make_shared<L143_recorderList>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L144") {
+            std::shared_ptr<L144_preorderTraversal> tmp= std::make_shared<L144_preorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
 public:

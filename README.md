@@ -21,3 +21,7 @@ LeetCode栈算法题的解题仓库
 [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L94_inorderTraversal](L94_inorderTraversal)
 
 [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=stack) : [L114_flatten](L114_flatten)
+
+[143. 重排链表](https://leetcode.cn/problems/reorder-list/description/?envType=problem-list-v2&envId=stack) : [L143_reorderList](L143_reorderList)
+
+[144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L144_preorderTraversal](L144_preorderTraversal)
