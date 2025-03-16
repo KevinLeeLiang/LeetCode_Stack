@@ -24,6 +24,8 @@
 #include "L114_flatten/L114_flatten.h"
 #include "L143_recorderList/L143_recorderList.h"
 #include "L144_preorderTraversal/L144_preorderTraversal.h"
+#include "L145_postorderTraversal/L145_postorderTraversal.h"
+#include "L150_evalRPN/L150_evalRPN.h"
 
 class test_factory {
 
@@ -59,6 +61,14 @@ private:
         } else if (title == "L144") {
             std::shared_ptr<L144_preorderTraversal> tmp= std::make_shared<L144_preorderTraversal>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L145") {
+            std::shared_ptr<L145_postorderTraversal> tmp= std::make_shared<L145_postorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L150") {
+            std::shared_ptr<L150_evalRPN> tmp= std::make_shared<L150_evalRPN>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

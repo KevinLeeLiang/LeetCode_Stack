@@ -25,3 +25,8 @@ LeetCode栈算法题的解题仓库
 [143. 重排链表](https://leetcode.cn/problems/reorder-list/description/?envType=problem-list-v2&envId=stack) : [L143_reorderList](L143_reorderList)
 
 [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L144_preorderTraversal](L144_preorderTraversal)
+
+[145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L145_postorderTraversal](L145_postorderTraversal)
+
+[150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/description/?envType=problem-list-v2&envId=stack) : [L150_evalRPN](L150_evalRPN)
+
