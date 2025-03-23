@@ -26,6 +26,8 @@
 #include "L144_preorderTraversal/L144_preorderTraversal.h"
 #include "L145_postorderTraversal/L145_postorderTraversal.h"
 #include "L150_evalRPN/L150_evalRPN.h"
+#include "L155_MinStack/L155_MinStack.h"
+#include "L173_BSTIterator/L173_BSTIterator.h"
 
 class test_factory {
 
@@ -67,8 +69,12 @@ private:
         } else if (title == "L150") {
             std::shared_ptr<L150_evalRPN> tmp= std::make_shared<L150_evalRPN>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L155") {
+            std::shared_ptr<L155_MinStack> tmp= std::make_shared<L155_MinStack>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L173") {
+            std::shared_ptr<L173_BSTIterator> tmp= std::make_shared<L173_BSTIterator>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
 public:
