@@ -33,3 +33,7 @@ LeetCode栈算法题的解题仓库
 [155. 最小栈](https://leetcode.cn/problems/min-stack/description/?envType=problem-list-v2&envId=stack) : [L155_minStack](L155_minStack)
 
 [173. 二叉搜索树迭代器](https://leetcode.cn/problems/binary-search-tree-iterator/description/?envType=problem-list-v2&envId=stack) : [L173. BSTIterator](L173_BSTIterator)
+
+[224. 基本计算器](https://leetcode.cn/problems/basic-calculator/description/?envType=problem-list-v2&envId=stack) : [L224_calculate](L224_calculate)
+
+[225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/description/?envType=problem-list-v2&envId=stack) : [L225_MyStack](L225_MyStack)
