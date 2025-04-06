@@ -30,6 +30,8 @@
 #include "L173_BSTIterator/L173_BSTIterator.h"
 #include "L224_calculate/L224_calculate.h"
 #include "L225_MyStack/L225_MyStack.h"
+#include "L227_calculate/L227_calculate.h"
+#include "L232_MyQueue/L232_MyQueue.h"
 
 class test_factory {
 
@@ -82,6 +84,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L225") {
             std::shared_ptr<L225_MyStack> tmp= std::make_shared<L225_MyStack>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L227") {
+            std::shared_ptr<L227_calculate> tmp= std::make_shared<L227_calculate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L232") {
+            std::shared_ptr<L232_MyQueue> tmp= std::make_shared<L232_MyQueue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }

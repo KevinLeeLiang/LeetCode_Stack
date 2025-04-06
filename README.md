@@ -37,3 +37,7 @@ LeetCode栈算法题的解题仓库
 [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/description/?envType=problem-list-v2&envId=stack) : [L224_calculate](L224_calculate)
 
 [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/description/?envType=problem-list-v2&envId=stack) : [L225_MyStack](L225_MyStack)
+
+[227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/description/?envType=problem-list-v2&envId=stack) : [L227_calculate](L227_calculate)
+
+[232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/description/?envType=problem-list-v2&envId=stack) : [L232_MyQueue](L232_MyQueue)
