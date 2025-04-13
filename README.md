@@ -41,3 +41,7 @@ LeetCode栈算法题的解题仓库
 [227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/description/?envType=problem-list-v2&envId=stack) : [L227_calculate](L227_calculate)
 
 [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/description/?envType=problem-list-v2&envId=stack) : [L232_MyQueue](L232_MyQueue)
+
+[234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=stack) : [L234_isPalindrome](L234_isPalindrome)
+
+[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/description/?envType=problem-list-v2&envId=stack) : [L316_removeDuplicateLetters](L316_removeDuplicateLetters)
