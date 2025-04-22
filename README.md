@@ -45,3 +45,7 @@ LeetCode栈算法题的解题仓库
 [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=stack) : [L234_isPalindrome](L234_isPalindrome)
 
 [316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/description/?envType=problem-list-v2&envId=stack) : [L316_removeDuplicateLetters](L316_removeDuplicateLetters)
+
+[321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/description/?envType=problem-list-v2&envId=stack) : [L321_maxNumber](L321_maxNumber)
+
+[331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/?envType=problem-list-v2&envId=stack) : [L331_isValidSerialization](L331_isValidSerialization)

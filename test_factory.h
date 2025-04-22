@@ -34,6 +34,8 @@
 #include "L232_MyQueue/L232_MyQueue.h"
 #include "L234_isPalindrome/L234_isPalindrome.h"
 #include "L316_removeDuplicateLetters/L316_removeDuplicateLetters.h"
+#include "L321_maxNumber/L321_maxNumber.h"
+#include "L331_isValidSerialization/L331_isValidSerialization.h"
 
 class test_factory {
 
@@ -99,6 +101,14 @@ private:
         } else if (title == "L316") {
             std::shared_ptr<L316_removeDuplicateLetters> tmp= std::make_shared<L316_removeDuplicateLetters>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L321") {
+            std::shared_ptr<L321_maxNumber> tmp= std::make_shared<L321_maxNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L331") {
+            std::shared_ptr<L331_isValidSerialization> tmp= std::make_shared<L331_isValidSerialization>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
