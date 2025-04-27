@@ -49,3 +49,7 @@ LeetCode栈算法题的解题仓库
 [321. 拼接最大数](https://leetcode.cn/problems/create-maximum-number/description/?envType=problem-list-v2&envId=stack) : [L321_maxNumber](L321_maxNumber)
 
 [331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/?envType=problem-list-v2&envId=stack) : [L331_isValidSerialization](L331_isValidSerialization)
+
+[388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/?envType=problem-list-v2&envId=stack) : [L388_lengthLongestPath](L388_lengthLongestPath)
+
+[394. 字符串解码](https://leetcode.cn/problems/decode-string/description/?envType=problem-list-v2&envId=stack) : [L394_decodeString](L394_decodeString)

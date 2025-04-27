@@ -36,6 +36,8 @@
 #include "L316_removeDuplicateLetters/L316_removeDuplicateLetters.h"
 #include "L321_maxNumber/L321_maxNumber.h"
 #include "L331_isValidSerialization/L331_isValidSerialization.h"
+#include "L388_lengthLongestPath/L388_lengthLongestPath.h"
+#include "L394_decodeString/L394_decodeString.h"
 
 class test_factory {
 
@@ -107,8 +109,12 @@ private:
         } else if (title == "L331") {
             std::shared_ptr<L331_isValidSerialization> tmp= std::make_shared<L331_isValidSerialization>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L388") {
+            std::shared_ptr<L388_lengthLongestPath> tmp= std::make_shared<L388_lengthLongestPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L394") {
+            std::shared_ptr<L394_decodeString> tmp= std::make_shared<L394_decodeString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
 public:
