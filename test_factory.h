@@ -38,6 +38,8 @@
 #include "L331_isValidSerialization/L331_isValidSerialization.h"
 #include "L388_lengthLongestPath/L388_lengthLongestPath.h"
 #include "L394_decodeString/L394_decodeString.h"
+#include "L402_removeKdigits/L402_removeKdigits.h"
+#include "L445_addTwoNumbers/L445_addTwoNumbers.h"
 
 class test_factory {
 
@@ -114,6 +116,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L394") {
             std::shared_ptr<L394_decodeString> tmp= std::make_shared<L394_decodeString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L402") {
+            std::shared_ptr<L402_removeKdigits> tmp= std::make_shared<L402_removeKdigits>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L445") {
+            std::shared_ptr<L445_addTwoNumbers> tmp= std::make_shared<L445_addTwoNumbers>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
