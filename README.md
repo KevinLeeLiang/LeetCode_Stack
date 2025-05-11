@@ -53,3 +53,11 @@ LeetCode栈算法题的解题仓库
 [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/?envType=problem-list-v2&envId=stack) : [L388_lengthLongestPath](L388_lengthLongestPath)
 
 [394. 字符串解码](https://leetcode.cn/problems/decode-string/description/?envType=problem-list-v2&envId=stack) : [L394_decodeString](L394_decodeString)
+
+[402. 移掉K位数字](https://leetcode.cn/problems/remove-k-digits/description/?envType=problem-list-v2&envId=stack) : [L402_removeKdigits](L402_removeKdigits)
+
+[445. 两数相加 II](https://leetcode.cn/problems/add-two-numbers-ii/description/?envType=problem-list-v2&envId=stack) : [L445_addTwoNumbers](L445_addTwoNumbers)
+
+[456. 132模式](https://leetcode.cn/problems/132-pattern/description/?envType=problem-list-v2&envId=stack) : [L456_find132pattern](L456_find132pattern)
+
+[488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=stack) : [L488_findMinStep](L488_findMinStep)

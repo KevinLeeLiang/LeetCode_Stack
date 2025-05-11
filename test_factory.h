@@ -40,6 +40,8 @@
 #include "L394_decodeString/L394_decodeString.h"
 #include "L402_removeKdigits/L402_removeKdigits.h"
 #include "L445_addTwoNumbers/L445_addTwoNumbers.h"
+#include "L456_find132pattern/L456_find132pattern.h"
+#include "L488_findMinStep/L488_findMinStep.h"
 
 class test_factory {
 
@@ -122,6 +124,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L445") {
             std::shared_ptr<L445_addTwoNumbers> tmp= std::make_shared<L445_addTwoNumbers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L456") {
+            std::shared_ptr<L456_find132pattern> tmp= std::make_shared<L456_find132pattern>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L488") {
+            std::shared_ptr<L488_findMinStep> tmp= std::make_shared<L488_findMinStep>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
