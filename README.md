@@ -61,3 +61,7 @@ LeetCode栈算法题的解题仓库
 [456. 132模式](https://leetcode.cn/problems/132-pattern/description/?envType=problem-list-v2&envId=stack) : [L456_find132pattern](L456_find132pattern)
 
 [488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=stack) : [L488_findMinStep](L488_findMinStep)
+
+[496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/description/?envType=problem-list-v2&envId=stack) : [L496_nextGreaterElement](L496_nextGreaterElement)
+
+[503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/description/?envType=problem-list-v2&envId=stack) : [L503_nextGreaterElements](L503_nextGreaterElements)

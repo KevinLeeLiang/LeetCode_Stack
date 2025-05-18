@@ -42,6 +42,8 @@
 #include "L445_addTwoNumbers/L445_addTwoNumbers.h"
 #include "L456_find132pattern/L456_find132pattern.h"
 #include "L488_findMinStep/L488_findMinStep.h"
+#include "L496_nextGreaterElement/L496_nextGreaterElement.h"
+#include "L503_nextGreaterElements/L503_nextGreaterElements.h"
 
 class test_factory {
 
@@ -130,6 +132,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L488") {
             std::shared_ptr<L488_findMinStep> tmp= std::make_shared<L488_findMinStep>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L496") {
+            std::shared_ptr<L496_nextGreaterElement> tmp= std::make_shared<L496_nextGreaterElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L503") {
+            std::shared_ptr<L503_nextGreaterElements> tmp= std::make_shared<L503_nextGreaterElements>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
