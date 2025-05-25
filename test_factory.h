@@ -44,6 +44,8 @@
 #include "L488_findMinStep/L488_findMinStep.h"
 #include "L496_nextGreaterElement/L496_nextGreaterElement.h"
 #include "L503_nextGreaterElements/L503_nextGreaterElements.h"
+#include "L581_findUnsortedSubarray/L581_findUnsortedSubarray.h"
+#include "L589_preorder/L589_preorder.h"
 
 class test_factory {
 
@@ -138,6 +140,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L503") {
             std::shared_ptr<L503_nextGreaterElements> tmp= std::make_shared<L503_nextGreaterElements>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L581") {
+            std::shared_ptr<L581_findUnsortedSubarray> tmp= std::make_shared<L581_findUnsortedSubarray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L589") {
+            std::shared_ptr<L589_preorder> tmp= std::make_shared<L589_preorder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }

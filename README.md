@@ -65,3 +65,7 @@ LeetCode栈算法题的解题仓库
 [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/description/?envType=problem-list-v2&envId=stack) : [L496_nextGreaterElement](L496_nextGreaterElement)
 
 [503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/description/?envType=problem-list-v2&envId=stack) : [L503_nextGreaterElements](L503_nextGreaterElements)
+
+[581. 最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/description/?envType=problem-list-v2&envId=stack): [L581_findUnsortedSubarray](L581_findUnsortedSubarray)
+
+[589. N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L589_preorder](L589_preorder)
