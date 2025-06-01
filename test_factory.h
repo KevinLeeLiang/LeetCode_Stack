@@ -46,6 +46,8 @@
 #include "L503_nextGreaterElements/L503_nextGreaterElements.h"
 #include "L581_findUnsortedSubarray/L581_findUnsortedSubarray.h"
 #include "L589_preorder/L589_preorder.h"
+#include "L590_postorder/L590_postorder.h"
+#include "L591_isValid/L591_isValid.h"
 
 class test_factory {
 
@@ -146,6 +148,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L589") {
             std::shared_ptr<L589_preorder> tmp= std::make_shared<L589_preorder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if  (title == "L590") {
+            std::shared_ptr<L590_postorder> tmp= std::make_shared<L590_postorder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L591") {
+            std::shared_ptr<L591_isValid> tmp= std::make_shared<L591_isValid>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }

@@ -69,3 +69,7 @@ LeetCode栈算法题的解题仓库
 [581. 最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/description/?envType=problem-list-v2&envId=stack): [L581_findUnsortedSubarray](L581_findUnsortedSubarray)
 
 [589. N 叉树的前序遍历](https://leetcode.cn/problems/n-ary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=stack) : [L589_preorder](L589_preorder)
+
+[590. N 叉树的后序遍历](https://leetcode.cn/problems/n-ary-tree-postorder-traversal/description/?envType=problem-list-v2&envId=stack) :  [L590_postorder](L590_postorder)
+
+[591. 标签验证器](https://leetcode.cn/problems/tag-validator/description/?envType=problem-list-v2&envId=stack) : [L591_isValid](L591_isValid)
