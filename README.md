@@ -73,3 +73,4 @@ LeetCode栈算法题的解题仓库
 [590. N 叉树的后序遍历](https://leetcode.cn/problems/n-ary-tree-postorder-traversal/description/?envType=problem-list-v2&envId=stack) :  [L590_postorder](L590_postorder)
 
 [591. 标签验证器](https://leetcode.cn/problems/tag-validator/description/?envType=problem-list-v2&envId=stack) : [L591_isValid](L591_isValid)
+
