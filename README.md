@@ -74,3 +74,6 @@ LeetCode栈算法题的解题仓库
 
 [591. 标签验证器](https://leetcode.cn/problems/tag-validator/description/?envType=problem-list-v2&envId=stack) : [L591_isValid](L591_isValid)
 
+[636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/description/?envType=problem-list-v2&envId=stack)
+
+[654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=stack)

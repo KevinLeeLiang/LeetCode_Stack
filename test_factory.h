@@ -48,6 +48,8 @@
 #include "L589_preorder/L589_preorder.h"
 #include "L590_postorder/L590_postorder.h"
 #include "L591_isValid/L591_isValid.h"
+#include "L636_exclusiveTime/L636_exclusiveTime.h"
+#include "L654_constructMaximumBinaryTree/L654_constructMaximumBinaryTree.h"
 
 class test_factory {
 
@@ -154,6 +156,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L591") {
             std::shared_ptr<L591_isValid> tmp= std::make_shared<L591_isValid>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L636") {
+            std::shared_ptr<L636_exclusiveTime> tmp= std::make_shared<L636_exclusiveTime>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L654") {
+            std::shared_ptr<L654_constructMaximumBinaryTree> tmp= std::make_shared<L654_constructMaximumBinaryTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
