@@ -50,6 +50,8 @@
 #include "L591_isValid/L591_isValid.h"
 #include "L636_exclusiveTime/L636_exclusiveTime.h"
 #include "L654_constructMaximumBinaryTree/L654_constructMaximumBinaryTree.h"
+#include "L678_checkValidString/L678_checkValidString.h"
+#include "L682_calPoints/L682_calPoints.h"
 
 class test_factory {
 
@@ -162,6 +164,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L654") {
             std::shared_ptr<L654_constructMaximumBinaryTree> tmp= std::make_shared<L654_constructMaximumBinaryTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L678") {
+            std::shared_ptr<L678_checkValidString> tmp= std::make_shared<L678_checkValidString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L682") {
+            std::shared_ptr<L682_calPoints> tmp= std::make_shared<L682_calPoints>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }

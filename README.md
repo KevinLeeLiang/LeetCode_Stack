@@ -76,4 +76,8 @@ LeetCode栈算法题的解题仓库
 
 [636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/description/?envType=problem-list-v2&envId=stack)
 
-[654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=stack)
+[654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/description/?envType=problem-list-v2&envId=stack) : [L654_constructMaximumBinaryTree](L654_constructMaximumBinaryTree)
+
+[678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/description/?envType=problem-list-v2&envId=stack) : [L678_checkValidString](L678_checkValidString)
+
+[682. 棒球比赛](https://leetcode.cn/problems/baseball-game/description/?envType=problem-list-v2&envId=stack) : [L682_calPoints](L682_calPoints)
