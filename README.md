@@ -81,3 +81,7 @@ LeetCode栈算法题的解题仓库
 [678. 有效的括号字符串](https://leetcode.cn/problems/valid-parenthesis-string/description/?envType=problem-list-v2&envId=stack) : [L678_checkValidString](L678_checkValidString)
 
 [682. 棒球比赛](https://leetcode.cn/problems/baseball-game/description/?envType=problem-list-v2&envId=stack) : [L682_calPoints](L682_calPoints)
+
+[726. 原子的数量](https://leetcode.cn/problems/number-of-atoms/description/?envType=problem-list-v2&envId=stack) : [L726_countOfAtoms](L726_countOfAtoms)
+
+[735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/description/?envType=problem-list-v2&envId=stack) : [L735_asteroidCollision](L735_asteroidCollision)

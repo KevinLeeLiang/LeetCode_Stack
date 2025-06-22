@@ -52,6 +52,8 @@
 #include "L654_constructMaximumBinaryTree/L654_constructMaximumBinaryTree.h"
 #include "L678_checkValidString/L678_checkValidString.h"
 #include "L682_calPoints/L682_calPoints.h"
+#include "L726_countOfAtoms/L726_countOfAtoms.h"
+#include "L735_asteroidCollision/L735_asteroidCollision.h"
 
 class test_factory {
 
@@ -170,6 +172,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L682") {
             std::shared_ptr<L682_calPoints> tmp= std::make_shared<L682_calPoints>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L726") {
+            std::shared_ptr<L726_countOfAtoms> tmp= std::make_shared<L726_countOfAtoms>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L735") {
+            std::shared_ptr<L735_asteroidCollision> tmp= std::make_shared<L735_asteroidCollision>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
