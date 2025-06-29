@@ -54,6 +54,8 @@
 #include "L682_calPoints/L682_calPoints.h"
 #include "L726_countOfAtoms/L726_countOfAtoms.h"
 #include "L735_asteroidCollision/L735_asteroidCollision.h"
+#include "L736_evaluate//L736_evaluate.h"
+#include "L739_dailyTemperatures/L739_dailyTemperatures.h"
 
 class test_factory {
 
@@ -178,6 +180,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L735") {
             std::shared_ptr<L735_asteroidCollision> tmp= std::make_shared<L735_asteroidCollision>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L736") {
+            std::shared_ptr<L736_evaluate> tmp= std::make_shared<L736_evaluate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L739") {
+            std::shared_ptr<L739_dailyTemperatures> tmp= std::make_shared<L739_dailyTemperatures>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
