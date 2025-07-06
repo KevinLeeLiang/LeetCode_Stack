@@ -85,3 +85,7 @@ LeetCode栈算法题的解题仓库
 [726. 原子的数量](https://leetcode.cn/problems/number-of-atoms/description/?envType=problem-list-v2&envId=stack) : [L726_countOfAtoms](L726_countOfAtoms)
 
 [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/description/?envType=problem-list-v2&envId=stack) : [L735_asteroidCollision](L735_asteroidCollision)
+
+[768. 最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/description/?envType=problem-list-v2&envId=stack) : [L768_maxChunksToSorted](L768_maxChunksToSorted)
+
+[769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/description/?envType=problem-list-v2&envId=stack) : [L769_maxChunksToSorted](L769_maxChunksToSorted)

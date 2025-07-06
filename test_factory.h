@@ -56,6 +56,8 @@
 #include "L735_asteroidCollision/L735_asteroidCollision.h"
 #include "L736_evaluate//L736_evaluate.h"
 #include "L739_dailyTemperatures/L739_dailyTemperatures.h"
+#include "L768_maxChunksToSorted/L768_maxChunksToSorted.h"
+#include "L769_maxChunksToSorted/L769_maxChunksToSorted.h"
 
 class test_factory {
 
@@ -186,6 +188,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L739") {
             std::shared_ptr<L739_dailyTemperatures> tmp= std::make_shared<L739_dailyTemperatures>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L768") {
+            std::shared_ptr<L768_maxChunksToSorted> tmp= std::make_shared<L768_maxChunksToSorted>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L769") {
+            std::shared_ptr<L769_maxChunksToSorted> tmp= std::make_shared<L769_maxChunksToSorted>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
