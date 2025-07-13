@@ -32,6 +32,9 @@
 #include <cstdint>
 #include <cstdarg>
 #include <numeric>
+#include <map>
+#include <set>
+#include <list>
 
 using namespace std;
 

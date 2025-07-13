@@ -58,6 +58,7 @@
 #include "L739_dailyTemperatures/L739_dailyTemperatures.h"
 #include "L768_maxChunksToSorted/L768_maxChunksToSorted.h"
 #include "L769_maxChunksToSorted/L769_maxChunksToSorted.h"
+#include "L770_basicCalculatorIV/L770_basicCalculatorIV.h"
 
 class test_factory {
 
@@ -194,6 +195,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L769") {
             std::shared_ptr<L769_maxChunksToSorted> tmp= std::make_shared<L769_maxChunksToSorted>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L770") {
+            std::shared_ptr<L770_basicCalculatorIV> tmp= std::make_shared<L770_basicCalculatorIV>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
