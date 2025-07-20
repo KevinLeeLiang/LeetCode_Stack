@@ -89,3 +89,7 @@ LeetCode栈算法题的解题仓库
 [768. 最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii/description/?envType=problem-list-v2&envId=stack) : [L768_maxChunksToSorted](L768_maxChunksToSorted)
 
 [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted/description/?envType=problem-list-v2&envId=stack) : [L769_maxChunksToSorted](L769_maxChunksToSorted)
+
+[770. 基本计算器 IV](https://leetcode.cn/problems/basic-calculator-iv/description/?envType=problem-list-v2&envId=stack) : [L770_basicCalculatorIV](L770_basicCalculatorIV)
+
+[844. 比较含退格的字符串](https://leetcode.cn/problems/backspace-string-compare/description/?envType=problem-list-v2&envId=stack) : [L844_backspaceCompare](L844_backspaceCompare)
