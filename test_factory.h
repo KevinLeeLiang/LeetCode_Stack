@@ -60,6 +60,7 @@
 #include "L769_maxChunksToSorted/L769_maxChunksToSorted.h"
 #include "L770_basicCalculatorIV/L770_basicCalculatorIV.h"
 #include "L844_backspaceCompare/L844_backspaceCompare.h"
+#include "L853_carFleet/L853_carFleet.h"
 
 class test_factory {
 
@@ -202,6 +203,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         } else if (title == "L844") {
             std::shared_ptr<L844_backspaceCompare> tmp= std::make_shared<L844_backspaceCompare>();\
+            solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
+        } else if (title == "L853") {
+            std::shared_ptr<L853_carFleet> tmp= std::make_shared<L853_carFleet>();
             solution_ = std::dynamic_pointer_cast<LeetcodeStack>(tmp);
         }
     }
